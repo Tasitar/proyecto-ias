@@ -1,25 +1,31 @@
-header {
+#header-index {
     text-align: center;
     background-color: rgba(10, 148, 10, 0.91);
-    
+        width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+a { 
+    display: inline-block;
+    margin-right: 30px;
+
 }
 
 #contenedor-padre-index {
     display: inline-block;
-    width: 100%;
+    /* width: 100%; */
 }
 
 #section-index {
     display: inline-block;
     background-color: rgb(153, 255, 127);
-    /* width: 50%; */
     margin-bottom: 20px;
-    margin-left: 400px;
-    margin-right: 400px
+    margin-left: 500px;
+    margin-right: 590px;
 }
 
 #section-figure-index{
-    /* background-color: rgb(153, 255, 127); */
     margin-left: 510px;
     margin-right: 600px;
 }
@@ -27,4 +33,7 @@ header {
 footer {
     background-color: rgb(10, 148, 10, 0.91);
     text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
