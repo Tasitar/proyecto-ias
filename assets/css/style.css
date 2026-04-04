@@ -1,14 +1,21 @@
 #header-index {
+        background-color: rgb(153, 255, 127);
+
     text-align: center;
-    background-color: rgba(10, 148, 10, 0.91);
-        width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
+    background-image: url(../img/fondo-header.png);
+    background-position: center;
+    background-size: cover;
+
 
 }
+
 a { 
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
 
 }
 
