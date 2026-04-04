@@ -1,5 +1,25 @@
 header {
     text-align: center;
     background-color: rgba(10, 148, 10, 0.91);
-       
+    
+}
+
+#contenedor-padre-index {
+    display: inline-block;
+    width: 100%;
+}
+
+#section-index {
+    display: inline-block;
+    background-color: rgb(153, 255, 127);
+    /* width: 50%; */
+    margin-bottom: 20px;
+    margin-left: 400px;
+    margin-right: 400px
+}
+
+#section-figure-index{
+    /* background-color: rgb(153, 255, 127); */
+    margin-left: 510px;
+    margin-right: 600px;
 }
