@@ -1,8 +1,9 @@
-#header-index {
-        background-color: rgb(153, 255, 127);
+/* CSS DE INDEX */
+header {
 
+    background-color: rgb(153, 255, 127);
     text-align: center;
-    width: 90%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     background-image: url(../img/fondo-header.png);
@@ -21,7 +22,6 @@ a {
 
 #contenedor-padre-index {
     display: inline-block;
-    /* width: 100%; */
 }
 
 #section-index {
@@ -38,9 +38,16 @@ a {
 }
 
 footer {
-    background-color: rgb(10, 148, 10, 0.91);
+    background-color: rgb(153, 255, 127);
     text-align: center;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+#section-historia{
+    align-content: center;
+    text-align: center;
+    width: 60%;
+    margin-left: 275px;
 }
