@@ -27,12 +27,42 @@
       <section>
         <ul>
           <li>
-            <address>direccion: Av. 9 de Julio 1.070, Formosa Capital, Formosa, Argentina</address>
+            <address>
+              direccion: Av. 9 de Julio 1.070, Formosa Capital, Formosa,
+              Argentina
+            </address>
           </li>
+          <li>Telefono: +543704000000</li>
           <li>
-            Telefono: +543704000000
+            <a href="Benito@gmail.com.ar">Benito@gmail.com.ar</a>
           </li>
         </ul>
+      </section>
+
+      <section id="section-label-input">
+        <form action="#" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="tel">Teléfono:</label>
+          <input type="tel" id="tel" name="tel" />
+
+          <label for="motivo">Motivo de consulta:</label>
+          <select id="motivo" name="motivo">
+            <option value="">Seleccione una opcion</option>
+            <option value="ventas">Ventas</option>
+            <option value="soporte">Soporte Técnico</option>
+            <option value="recursos-humanos">Recursos Humanos</option>
+          </select>
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+
+          <button type="submit">Enviar consulta</button>
+        </form>
       </section>
     </main>
 
