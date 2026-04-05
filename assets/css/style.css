@@ -51,3 +51,14 @@ footer {
     width: 60%;
     margin-left: 275px;
 }
+
+table {
+    width: 60%;
+    text-align: center;
+    margin-left: 275px;
+
+}
+
+th, td{
+    border: 1px solid;
+}
