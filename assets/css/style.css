@@ -77,3 +77,16 @@ th, td{
     width: 40%;
     background-color: rgb(125, 211, 85);
 }
+
+#section-funciones-p{
+    text-align: center;
+}
+
+#contenedor-de-ol-aside{
+    display: table;
+}
+
+.cell-ol-aside{
+    display: table-cell;
+    width: 80%;
+}
