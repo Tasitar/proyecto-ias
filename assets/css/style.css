@@ -45,6 +45,7 @@ footer {
     margin-right: auto;
 }
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+/* css de sobre ias  */
 .section-sobre-ias{
     align-content: center;
     text-align: center;
@@ -61,4 +62,18 @@ table {
 
 th, td{
     border: 1px solid;
+}
+
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+/* css para funciones.html */
+
+#contenedor-de-ul {
+    display: table;
+    width: 100%;
+}
+
+.section-para-cells{
+    display: table-cell;
+    width: 40%;
+    background-color: rgb(125, 211, 85);
 }
