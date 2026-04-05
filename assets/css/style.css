@@ -88,5 +88,7 @@ th, td{
 
 .cell-ol-aside{
     display: table-cell;
-    width: 80%;
+    width: 50%;
+    
 }
+
