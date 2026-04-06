@@ -15,17 +15,14 @@ header {
 }
 
 a { 
-    display: inline-block;
     margin-right: 40px;
     margin-left: 40px;
 }
 
 #contenedor-padre-index {
-    display: inline-block;
 }
 
 #section-index {
-    display: inline-block;
     background-color: rgb(153, 255, 127);
     margin-bottom: 20px;
     margin-left: 300px;
@@ -107,9 +104,10 @@ th, td{
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
 /* css para contacto */
 
+
 #form-table {
     display: table;
-}
+} 
 
 .div-row {
     display: table-row;
