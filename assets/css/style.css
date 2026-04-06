@@ -19,8 +19,7 @@ a {
     margin-left: 40px;
 }
 
-#contenedor-padre-index {
-}
+
 
 #section-index {
     background-color: rgb(153, 255, 127);
@@ -73,12 +72,10 @@ th, td{
 /* css para funciones.html */
 
 #contenedor-de-ul {
-    display: table;
     width: 100%;
 }
 
 .section-para-cells{
-    display: table-cell;
     width: 40%;
     background-color: rgb(125, 211, 85);
     font-family: sans-serif;
@@ -90,13 +87,11 @@ th, td{
 }
 
 #contenedor-de-ol-aside{
-    display: table;
     background-color: rgb(165, 230, 149);
     font-family: sans-serif;
 }
 
 .cell-ol-aside{
-    display: table-cell;
     width: 50%;
     
 }
@@ -105,18 +100,14 @@ th, td{
 /* css para contacto */
 
 
-#form-table {
-    display: table;
-} 
+ 
 
 .div-row {
-    display: table-row;
         background: rgb(125, 211, 85);
 
 }
 
 label, input, select, textarea {
-    display: table-cell;
         background: rgb(125, 211, 85);
 }
 
