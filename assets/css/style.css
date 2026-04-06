@@ -95,3 +95,14 @@ th, td{
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
 /* css para contacto */
 
+#form-table {
+    display: table;
+}
+
+.div-row {
+    display: table-row;
+}
+
+label, input, select, textarea {
+    display: table-cell;
+}

@@ -39,27 +39,38 @@
         </ul>
       </section>
 
-      <section id="section-label-input">
-        <form action="#" method="post">
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" required />
+      <section>
+        <form  id="form-table" action="#" method="post">
 
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
+          <div  class="div-row">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required />
+          </div>
 
-          <label for="tel">Teléfono:</label>
-          <input type="tel" id="tel" name="tel" />
+          <div class="div-row">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
 
-          <label for="motivo">Motivo de consulta:</label>
-          <select id="motivo" name="motivo">
-            <option value="">Seleccione una opcion</option>
-            <option value="ventas">Ventas</option>
-            <option value="soporte">Soporte Técnico</option>
-            <option value="recursos-humanos">Recursos Humanos</option>
-          </select>
+          <div class="div-row">
+            <label for="tel">Teléfono:</label>
+            <input type="tel" id="tel" name="tel" />
+          </div>
 
-          <label for="mensaje">Mensaje:</label>
-          <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+          <div class="div-row">
+            <label for="motivo">Motivo de consulta:</label>
+            <select id="motivo" name="motivo">
+              <option value="">Seleccione una opcion</option>
+              <option value="ventas">Ventas</option>
+              <option value="soporte">Soporte Técnico</option>
+              <option value="recursos-humanos">Recursos Humanos</option>
+            </select>
+          </div>
+
+          <div class="div-row">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+          </div>
 
           <button type="submit">Enviar consulta</button>
         </form>
